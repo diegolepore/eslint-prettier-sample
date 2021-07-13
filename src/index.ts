@@ -8,7 +8,7 @@ import axios from 'axios'
  */
 
 /** Create getCountry Function here */
-async function getCountry(countryName): Promise<{
+async function getCountry(countryName: string): Promise<{
   capital: string
   region: string
   numericCode: string
