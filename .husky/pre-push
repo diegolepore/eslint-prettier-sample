@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-lint-and-fix && npm run test
+npm run lint-and-fix && npm run test
