@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 // set endpoint
-app.get('api', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('/api endpoint ready')
 })
 
